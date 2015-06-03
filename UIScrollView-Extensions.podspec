@@ -10,29 +10,16 @@
 Pod::Spec.new do |s|
   s.name             = "UIScrollView-Extensions"
   s.version          = "0.1.0"
-  s.summary          = "A short description of UIScrollView-Extensions."
-  s.description      = <<-DESC
-                       An optional longer description of UIScrollView-Extensions
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/UIScrollView-Extensions"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.summary          = "An extension which calculate the current page in a scrollview"
+  s.homepage         = "https://github.com/frederik-jacques/uiscrollview-extensions"
   s.license          = 'MIT'
   s.author           = { "Frederik Jacques" => "frederik@the-nerd.be" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/UIScrollView-Extensions.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/frederik-jacques/uiscrollview-extensions.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/thenerd_be'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'UIScrollView-Extensions' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  
 end

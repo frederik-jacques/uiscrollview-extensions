@@ -1,0 +1,14 @@
+PODS:
+  - UIScrollView-Extensions (0.1.0)
+
+DEPENDENCIES:
+  - UIScrollView-Extensions (from `../`)
+
+EXTERNAL SOURCES:
+  UIScrollView-Extensions:
+    :path: ../
+
+SPEC CHECKSUMS:
+  UIScrollView-Extensions: fbf70ec19483926e683e94bd627a5290c4d2b68e
+
+COCOAPODS: 0.37.2

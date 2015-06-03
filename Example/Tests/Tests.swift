@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import UIScrollView-Extensions
+import UIScrollView_Extensions
 
 class Tests: XCTestCase {
     

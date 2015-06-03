@@ -8,7 +8,7 @@
 An extension on UIScrollView to request on which page the scrollview has halted when you have paging enabled.
 
 ``` 
-scrollView.currentPage()
+scrollView.currentPage
 ```
 
 For example in use with a UIPageControl.
@@ -16,7 +16,7 @@ For example in use with a UIPageControl.
 ``` 
 func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
         
-   pageControl.currentPage = scrollView.currentPage()
+   pageControl.currentPage = scrollView.currentPage
         
 }
 ```

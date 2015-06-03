@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "UIScrollView-Extensions"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "An extension which calculate the current page in a scrollview"
   s.homepage         = "https://github.com/frederik-jacques/uiscrollview-extensions"
   s.license          = 'MIT'

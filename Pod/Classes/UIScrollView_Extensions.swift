@@ -8,9 +8,13 @@
 
 public extension UIScrollView {
     
-    func currentPage() -> Int {
+    var currentPage:Int {
+
+        get {
         
-        return Int(self.contentOffset.x / self.bounds.size.width)
+            return Int(self.contentOffset.x / self.bounds.size.width)
+            
+        }
         
     }
     

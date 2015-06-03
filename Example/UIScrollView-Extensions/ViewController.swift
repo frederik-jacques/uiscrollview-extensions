@@ -63,7 +63,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     // MARK: - Delegate methods
     func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
         
-        pageControl.currentPage = scrollView.currentPage()
+        pageControl.currentPage = scrollView.currentPage
         
     }
    

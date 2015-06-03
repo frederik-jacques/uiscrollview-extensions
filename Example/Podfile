@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'UIScrollView-Extensions_Example', :exclusive => true do
+  pod "UIScrollView-Extensions", :path => "../"
+end
+
+target 'UIScrollView-Extensions_Tests', :exclusive => true do
+  pod "UIScrollView-Extensions", :path => "../"
+
+  
+end
